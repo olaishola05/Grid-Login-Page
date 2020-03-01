@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  text-align: center;
+  background-color: #00bfa6;
+  color: #535461;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 40% 10%;
+  gap: 1em;
+}
+.details > h2 {
+  padding: 3em;
+  font-size: 2.5em;
+}
+label {
+  font-size: 1.5em;
+  /* padding: 2em; */
+}
+img {
+  width: 100%;
+  background-position: center;
+}
+
+input {
+  margin: 2em;
+  padding: 0.5em;
+  width: 250px;
+}
+.image {
+  background-color: cadetblue;
+  /* width: 50%; */
+  height: 100px;
+}
